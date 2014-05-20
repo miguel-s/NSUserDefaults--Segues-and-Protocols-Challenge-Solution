@@ -10,4 +10,10 @@
 
 @interface MSViewController : UIViewController
 
+@property (nonatomic) NSString *username;
+@property (nonatomic) NSString *password;
+
+@property (strong, nonatomic) IBOutlet UILabel *viewControllerUsername;
+@property (strong, nonatomic) IBOutlet UILabel *viewControllerPassword;
+
 @end
